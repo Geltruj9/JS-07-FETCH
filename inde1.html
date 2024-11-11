@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> POKEDEX</h1>
+
+    <!-- Contenedor para mostrar la tarjeta del Pokémon -->
+    <div id="pokemon-container"></div>
+
+    <!-- Contenedor para la barra de búsqueda y botones de navegación -->
+    <div class="controls">
+        <input type="text" id="search-input" placeholder="Ingresa nombre o ID del Pokémon">
+        <button id="search-btn">Buscar</button>
+    </div>
+    <div class="buttons">
+        <button id="prev-btn">Anterior</button>
+        <button id="next-btn">Siguiente</button>
+    </div>
+
+    <script src="fetch.js"></script>
+</body>
+</html>
